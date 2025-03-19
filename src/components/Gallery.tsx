@@ -2,8 +2,8 @@
 // import { motion } from 'framer-motion';
 // import { ExternalLinkIcon, InstagramIcon, TwitterIcon, FacebookIcon, LinkedinIcon } from 'lucide-react';
 // import image1 from '../assets/img15.png';
-// import image2 from '../assets/img16.png';
-// import image3 from '../assets/img17.png';
+// import image29 from '../assets/img29.png';
+// import image28 from '../assets/img28.png';
 // import image4 from '../assets/img18.png';
 // import image5 from '../assets/img19.png';
 // import image6 from '../assets/img15.png';
@@ -14,59 +14,61 @@
 // const Gallery = () => {
 //   const galleryItems = [{
 //     title: 'Social Media Campaign',
-//     platform: 'Instagram',
+//     platform: 'linkedin',
 //     image: image1,
-//     stats: '2.5M+ Reach',
-//     icon: <InstagramIcon className="w-6 h-6" />,
+//     stats: '10k+ Reach',
+//     icon: <LinkedinIcon className="w-6 h-6" />,
+//     // icon: <InstagramIcon className="w-6 h-6" />,
 //     gradient: 'from-purple-500 to-pink-500'
 //   }, {
-//     title: 'Brand Growth',
-//     platform: 'Twitter',
-//     image: image2,
-//     stats: '150K+ Followers',
-//     icon: <TwitterIcon className="w-6 h-6" />,
+//     title: 'Mini Freelancing Hub Nagar',
+//     platform: 'facebook',
+//     image: image29,
+//     stats: '50K+ Followers',
+//     icon: <FacebookIcon className="w-6 h-6" />,
+//     // icon: <TwitterIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-400 to-blue-600'
 //   }, {
 //     title: 'Community Engagement',
-//     platform: 'Facebook',
-//     image: image3,
-//     stats: '500K+ Interactions',
-//     icon: <FacebookIcon className="w-6 h-6" />,
+//     platform: 'LinkedIn',
+//     image: image28,
+//     stats: '500K+ Interac...',
+//     icon: <LinkedinIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-600 to-blue-800'
 //   }, {
-//     title: 'Professional Network',
-//     platform: 'LinkedIn',
+//     title: 'Thank you to AKRSP for your invaluable support in turning my vision',
+//     platform: 'Facebook',
 //     image: image4,
-//     stats: '50K+ Connections',
-//     icon: <LinkedinIcon className="w-6 h-6" />,
+//     stats: '50K+ Connec...',
+//     icon: <FacebookIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-700 to-blue-900'
 //   },, {
 //     title: 'Professional Network',
 //     platform: 'LinkedIn',
 //     image: image5,
-//     stats: '50K+ Connections',
+//     stats: '10K+ Connec...',
 //     icon: <LinkedinIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-700 to-blue-900'
 //   }, {
-//     title: 'Professional Network',
-//     platform: 'LinkedIn',
+//     title: 'Conducting a freelancing session',
+//     platform: 'Facebook',
 //     image: image7,
-//     stats: '50K+ Connections',
-//     icon: <LinkedinIcon className="w-6 h-6" />,
+//     stats: '50K+ Connec...',
+//     icon: <FacebookIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-700 to-blue-900'
 //   }, {
-//     title: 'Professional Network',
+//     title: 'Empowering communities through IT education',
 //     platform: 'LinkedIn',
 //     image: image8,
-//     stats: '50K+ Connections',
+//     stats: '10K+ Connec...',
 //     icon: <LinkedinIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-700 to-blue-900'
 //   }, {
-//     title: 'Professional Network',
-//     platform: 'LinkedIn',
+//     title: 'leading innovative projects',
+//     platform: 'Facebook',
 //     image: image9,
-//     stats: '50K+ Connections',
-//     icon: <LinkedinIcon className="w-6 h-6" />,
+//     stats: '50K+ Connec...',
+//     icon: <FacebookIcon className="w-6 h-6" />,
 //     gradient: 'from-blue-700 to-blue-900'
 //   }];
 //   const containerVariants = {
@@ -134,7 +136,7 @@
 //                     </h3>
 //                     <div className="flex items-center justify-between">
 //                       <span className="text-white/90">{item.platform}</span>
-//                       <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm text-white">
+//                       <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-xs text-white">
 //                         {item.stats}
 //                       </span>
 //                     </div>
@@ -147,7 +149,7 @@
 //         <div className="mt-20 grid md:grid-cols-4 gap-8">
 //           {[{
 //           label: 'Total Reach',
-//           value: '10M+'
+//           value: '1M+'
 //         }, {
 //           label: 'Campaigns',
 //           value: '200+'
